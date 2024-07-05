@@ -1,0 +1,121 @@
+.footer__box{
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(44, 52, 62);
+  margin-top: 110px;
+  padding: 47px 85px 47px 85px;
+}
+.footer__repeatbox{
+ width: 622px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__img1{
+  width: 236px;
+  height: 26px
+}
+.footer__img2{
+  width: 24px;
+height: 24px;
+}
+.footer__img3{
+  width: 24px;
+height: 19.5px;
+}
+.footer__img4{
+  width: 24px;
+height: 24px;
+}
+.footer__nextbox{
+  width: 283px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__text{
+  color: rgb(131, 136, 143);
+font-family: Barlow;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0.92px;
+text-align: left;
+text-transform: uppercase;
+}
+.footer__imgbox{
+  width: 120px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:990px) {
+  .footer__box{
+    max-width: 688px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(44, 52, 62);
+    margin: auto;
+    margin-top: 190px;
+    padding: 54px 190px 54px 215px;
+  }
+  .footer__img1{
+    width: 236px;
+    height: 26px;
+    margin-bottom: 30px;
+  }
+  .footer__repeatbox{
+    max-width: 283px;
+     height: 65px;
+     display: flex;
+     flex-wrap: wrap;
+   }
+   .footer__imgbox{
+    width: 120px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width:620px) {
+  .footer__box{
+    max-width: 327px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(44, 52, 62);
+    margin: auto;
+    margin-top: 190px;
+    padding: 54px 54.15px 54px 55px;
+  }
+  .footer__repeatbox{
+    max-width: 217.85px;
+     height: 115px;
+     display: flex;
+     flex-wrap: wrap;
+   }
+   .footer__imgbox{
+    width: 120px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  .footer__nextbox{
+    max-width: 122px;
+    height: 93px;
+    display: flex;
+    display: inline-block;
+  }
+}
